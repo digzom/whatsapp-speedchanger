@@ -5,7 +5,7 @@ const interval = setInterval(() => {
       clearInterval(interval)
 
       const button = document.createElement("button")
-      button.innerHTML = '1.5'
+      button.innerHTML = '1.5x'
       button.classList.add('twoTimesButton')
 
       button.addEventListener('click', () => {
